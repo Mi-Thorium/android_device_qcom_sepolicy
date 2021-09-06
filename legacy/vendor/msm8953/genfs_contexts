@@ -101,3 +101,6 @@ genfscon sysfs /devices/soc/qpnp-wled-22/leds/ u:object_r:sysfs_leds:s0
 genfscon sysfs /devices/soc/qpnp-haptic-24/leds/vibrator u:object_r:sysfs_leds:s0
 genfscon sysfs /devices/soc/qpnp-vadc-14/usbin u:object_r:sysfs_battery_supply:s0
 genfscon sysfs /devices/soc/qpnp-typec-9/power_supply/typec u:object_r:sysfs_battery_supply:s0
+
+#net sysfs
+genfscon sysfs /devices/platform/soc/a000000.qcom,wcnss-wlan/net u:object_r:sysfs_net:s0
